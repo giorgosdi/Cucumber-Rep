@@ -1,7 +1,7 @@
-Feature: Adding
+Feature: Division
 
 
-	Scenario Outline: Add two numbers
+	Scenario Outline: Divide two numbers
 		Given the input "<input>"
 		When the calculator is run
 		Then the output should be "<output>"
@@ -9,5 +9,5 @@ Feature: Adding
 
 		Examples:
 			| input | output |
-			| 2+2	| 4		 |
-			| 98+1	| 99	 |
+			| 2/2	| 1		 |
+			| 98/2	| 49	 |
